@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="앱을 종료할까요?"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/dialog_native_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="300x250"
+            ads:adUnitId="ca-app-pub-9067824891811161/1349728197"/>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:id="@+id/dialog_button_quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="종료" />
+
+            <TextView
+                android:id="@+id/dialog_button_quit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="취소" />
+            
+        </LinearLayout>
+
+</LinearLayout>

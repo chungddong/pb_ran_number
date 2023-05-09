@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mNum_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="00"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="250sp" />
+
+
+            <Button
+                android:id="@+id/btn_pick"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:background="@drawable/button_shpae"
+                android:text="뽑기"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="뽑힌 숫자"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/picked_num_txt"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="5dp"
+                android:scrollbars="vertical"
+                android:text="9 29 48 34 11 35 83 31 3 5"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="30sp"
+                android:background="@drawable/add_button_shape"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
+
+

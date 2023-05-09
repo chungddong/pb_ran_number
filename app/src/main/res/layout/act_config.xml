@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/configgg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_min"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="45sp"
+            android:background="@drawable/button_shpae"
+            android:inputType="number"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/et_max"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_shpae"
+            android:inputType="number"
+            android:text="10"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb_overlap"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_shpae"
+            android:text="중복 허용"
+            android:checked="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:text="초기화"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_shpae"
+            android:textSize="20sp"
+            android:layout_margin="20sp"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/clear_button_shape"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
