@@ -17,7 +17,8 @@
             android:value="ca-app-pub-9067824891811161~9954158283"/>
 
         <activity android:name=".MainActivity"
-            android:windowSoftInputMode="adjustNothing">
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

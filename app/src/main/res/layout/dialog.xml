@@ -43,7 +43,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="종료" />
+                android:text="종료"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"/>
 
             <TextView
                 android:id="@+id/dialog_button_quit_cancel"
@@ -52,7 +54,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="취소" />
+                android:text="취소"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@color/cardview_dark_background"/>
             
         </LinearLayout>
 
